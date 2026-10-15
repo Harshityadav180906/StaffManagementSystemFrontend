@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_BASE = "https://staffmanagementsystem-xoo6.onrender.com";
+const API_BASE = "https://staffmanagementsystem-xoo6.onrender.com/staff";
 
 export default function App() {
   const [staff, setStaff] = useState([]);
